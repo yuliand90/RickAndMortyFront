@@ -7,6 +7,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
                 ng g m material
                 ng g m rick --routing
                 ng g c rick/components/morty
+                ng g c rick/components/dialog
                 ng g s rick/service/api
 
 
