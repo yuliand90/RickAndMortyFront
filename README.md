@@ -1,6 +1,14 @@
 # RickAndMortyFront
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.4.
+## Basic Commands to generate this app
+                ng new RickAndMortyFront
+                ng add @angular/material
+                ng g m material
+                ng g m rick --routing
+                ng g c rick/components/morty
+                ng g s rick/service/api
+
 
 ## Development server
 
