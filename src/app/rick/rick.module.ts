@@ -3,15 +3,19 @@ import { CommonModule } from '@angular/common';
 
 import { RickRoutingModule } from './rick-routing.module';
 import { MortyComponent } from './components/morty/morty.component';
+import { MaterialModule } from '../material/material.module';
+import { DialogComponent } from './components/dialog/dialog.component';
 
 
 @NgModule({
   declarations: [
-    MortyComponent
+    MortyComponent,
+    DialogComponent
   ],
   imports: [
     CommonModule,
-    RickRoutingModule
+    RickRoutingModule,
+    MaterialModule
   ]
 })
 export class RickModule { }
