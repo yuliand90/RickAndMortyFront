@@ -18,7 +18,5 @@ export class ApiService {
     return this.http.get(this.baseUrl+'/character', this.options);
   }
 
-  paginacion(pagina:string) {
-    return this.http.get(pagina, this.options);
-  }
+
 }
