@@ -1,9 +1,10 @@
+<h1> LISTA DE PERSONAJES DE RICKY AND MORTY</h1>
 <mat-list>
     <mat-list-item *ngFor="let item of characters.results" (click)="openDialog(item)">
         <img matListAvatar [src]="item.image" alt="Character image">
-        <h3 matLine>{{ item.name }}</h3>
+        <h1 matLine>{{ item.name }}</h1>
         <p mat-line>
-            status: {{ item.status }} - species: {{ item.species}}
+            status: {{ item.status }} - species: {{ item.species}} - tipo: {{ item.type}} 
         </p>
     </mat-list-item>
 </mat-list>

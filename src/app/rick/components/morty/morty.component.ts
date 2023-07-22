@@ -11,6 +11,7 @@ import { DialogComponent } from '../dialog/dialog.component';
 export class MortyComponent implements OnInit {
   public characters: any;
 
+
   constructor(private apiService: ApiService, public dialog: MatDialog) { }
 
   ngOnInit(): void {
